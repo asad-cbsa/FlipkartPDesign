@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .product{
+            display: grid;
+            grid-template-columns: 3fr 6fr 3fr;
+            grid-gap: 30px;
+            margin: 10px;
+        }
+        .rating {
+            background-color: green;
+            color: white;
+            text-align: center;
+            align-items: center;
+            padding: 5px;
+            width: 10px;
+            height: 20px;
+            font-size: 15px;
+            border-radius: 4px;
+        }
+        .review{
+            margin: 10px;
+            color: gray;
+        }
+        ul {
+            margin-bottom: -20px;
+        }
+        li {
+            margin: 10px;
+        }
+        li::marker{
+            color: gray;
+        }
+        .offer {
+            font-weight: bold;
+            color: green;
+        }
+        .ex {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <div>
+            <img src="public/images/realme p1 pro.jpg" alt="">
+        </div>
+        <div>
+            <div>
+                <font color="blue">
+                <h2>realme P1 Pro 5G (Phoenix Red, 128 GB)</h2>
+            </font>
+                <div>
+                    <span class="rating">4.9 <span class="bi bi-star-fill"></span></span> <span class="review">21,630 Ratings & 1,461 Reviews
+                    </span>
+                </div>
+          <div>
+            <ul>
+                <li>8 GB RAM | 128 GB ROM</li>
+                <li>17.02 cm (6.7 inch) Full HD+ Display</li>
+                <li>50MP + 8MP | 16MP Front Camera</li>
+                <li>5000 mAh Battery</li>
+                <li>6 Gen 1 Processor</li>
+                <li>1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for Inbox Accessories</li>
+            </ul>
+          </div>
+            </div>
+        </div>
+        <div>
+            <h2>&#8377;19,999</h2>
+            <font color="gray"><strike>&#8377;24,999</strike></font>
+            <font color="green"> 20% Off</font>
+            <div>
+                Free Delivery
+            </div>
+            <div>
+              <span class="offer"> Save extra with combo offers</span>
+            </div>
+            <div>
+                Upto <span class="ex">&#8377;11,350</span> Off on Exchange
+            </div>
+        </div>
+    </div>
+</body>
+</html>
